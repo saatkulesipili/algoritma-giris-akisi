@@ -24,11 +24,13 @@ Algoritmada kullanıcının e-posta ve şifre bilgilerinin kontrol edilmesi, yan
 
 ## Test Senaryoları
 | Senaryo | Beklenen sonuç |
-|---|---|---|
+|---|---|
 | Hesap kilitli | Giriş engellenir |
 | E-posta veya şifre boş | Uyarı gösterilir, sayaç artmaz |
 | Bilgiler doğru | Başarılı giriş |
-| Üçüncü yanlış deneme | Hesap kilitlenir |
+| İlk yanlış giriş | Sayaç 1 artırılır |
+| İkinci yanlış giriş | Sayaç 1 artırılır |
+| Üçüncü yanlış deneme | Hesap kilitlenir ve giriş engellenir |
 
 ## Tasarım Kararları
 Algoritmanın başlangıcında başarısız giriş sayacı 0 olarak kabul edilmiştir.
