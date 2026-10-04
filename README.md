@@ -20,7 +20,7 @@ Algoritmada kullanıcının e-posta ve şifre bilgilerinin kontrol edilmesi, yan
 
 
 ## Test Senaryoları
-| Senaryo | Beklenen sonuç |![Uploading Kullanıcı-Giriş-Algoritmas-Akış-Diyagramı.png…]()
+| Senaryo | Beklenen sonuç |
 
 |---|---|
 | Hesap kilitli | Giriş engellenir |
@@ -29,7 +29,7 @@ Algoritmada kullanıcının e-posta ve şifre bilgilerinin kontrol edilmesi, yan
 | Üçüncü yanlış deneme | Hesap kilitlenir |
 
 ## Tasarım Kararları
-[Algoritmanın başlangıcında başarısız giriş sayacı 0 olarak kabul edilmiştir.
+Algoritmanın başlangıcında başarısız giriş sayacı 0 olarak kabul edilmiştir.
 
 İlk olarak hesabın kilitli olup olmadığı kontrol edilir. Hesap kilitliyse kullanıcıya girişin engellendiği bilgisi gösterilir.
 
@@ -37,7 +37,7 @@ Hesap kilitli değilse e-posta ve şifre alanlarının boş olup olmadığı kon
 
 Alanlar doluysa girilen e-posta ve şifre bilgileri kontrol edilir. Bilgiler doğruysa başarılı giriş işlemi gerçekleştirilir. Bilgiler yanlışsa başarısız giriş sayacı 1 artırılır.
 
-Sayaç değeri 3'e ulaştığında hesap kilitlenir. Böylece kullanıcı üç başarısız girişten sonra tekrar giriş yapamaz.]
+Sayaç değeri 3'e ulaştığında hesap kilitlenir. Böylece kullanıcı üç başarısız girişten sonra tekrar giriş yapamaz.
 
 ## Öğrenci Bilgisi
 - Ad Soyad: [Hakan Gök]
