@@ -44,5 +44,5 @@ Alanlar doluysa girilen e-posta ve şifre bilgileri kontrol edilir. Bilgiler do�
 Sayaç değeri 3'e ulaştığında hesap kilitlenir. Böylece kullanıcı üç başarısız girişten sonra tekrar giriş yapamaz.
 
 ## Öğrenci Bilgisi
-- Ad Soyad: [Hakan Gök]
+- Ad Soyad: M.Hakan Gök
 - Ödev: Algoritma Tasarımı ve Akış Diyagramı
