@@ -24,7 +24,7 @@ Algoritmada kullanıcının e-posta ve şifre bilgilerinin kontrol edilmesi, yan
 
 ## Test Senaryoları
 | Senaryo | Beklenen sonuç |
-|---|---|
+|---|---|---|
 | Hesap kilitli | Giriş engellenir |
 | E-posta veya şifre boş | Uyarı gösterilir, sayaç artmaz |
 | Bilgiler doğru | Başarılı giriş |
